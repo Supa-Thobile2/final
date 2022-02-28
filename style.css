@@ -6,5 +6,35 @@
 
 .container{
     display: flex;
+    
+}
+.right{
+    background-image: url('images/bg-pattern-desktop.svg');
+    background-size: cover;
+}
+
+.right h1,p{
+    margin: 30px;
+    padding: 20px;
+}
+body{
+    font-family: calibri;
+    
+}
+
+.logo{
+    padding: 20px;
+}
+
+input{
+    margin: 30px;
+    padding: 9px;
+    border-radius: 20px ;
+}
+
+#submit{
+    margin: -80px;
+    border-radius: 20px ;
+    background-color: rgb(255, 182, 193);
 }
 
