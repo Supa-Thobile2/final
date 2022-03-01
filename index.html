@@ -4,7 +4,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="screen.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  <link rel="stylesheet" href="style.css"/>
   
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
@@ -15,48 +21,55 @@
   </style>
 </head>
 <body>
+<header>
 
- 
-
- 
-
- 
-
-  <div class="wrapper">
-    
-      <div class="container">
-          <div class="right">
-            <div class="logo">
-              <img src="images/logo.svg" >
-            </div>
-
-            <div class="left">
-              <img src="images/hero-mobile.jpg"/>
-            </div>
-              
-            
-          
-            <h1>We're <span>coming</span> <span>soon</span></h1>
-            <p> Hello fellow shoppers! We're currently building our new fashion store. 
-                Add your email below to stay up-to-date with announcements and our launch deals.</p>
-                <input type="email" id="email" name="email" placeholder="Email Address">
-                <input type="submit"  id="submit"></input>
-          </div>
-
-          
-         
-              
-        </div>
-      </div>
+  <div class="logo">
+    <img src="images/logo.svg" >
   </div>
 
-</body>
+</header>
 
-  
-<footer>
+<main>
+  <div class="hero">
+    <img src="images/hero-desktop.jpg">
+  </div>
+  <section class="content">
+    <h1>
+      <span>We're</span><br />
+      coming <br />
+      soon
+    </h1>
+    <p>
+      Hello fellow shoppers! We're currently building our new fashion store.
+      Add your email below to stay up-to-date with announcements and our
+      launch deals.
+    </p>
+
+    <div class="email-submit">
+      <input class="email-input" type="email" placeholder="Email Address" />
+      <button type="submit" name="submit">
+        <img src="images/icon-arrow.svg" alt="" />
+      </button>
+    </div>
+    <p class="error hidden">Please provide a valid email</p>
+  </section>
+  <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Thobile Nontenja</a>.
     </p>
   </footer>
+</main>
+ 
+
+ 
+
+  
+    
+      
+
+</body>
+
+  
+
 </html>
